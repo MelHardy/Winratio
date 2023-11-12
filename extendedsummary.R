@@ -3,6 +3,9 @@
 #####################################To be used with WinRatio R Package#########################################
 ################################################################################################################
 
+# Required libraries 
+library(WinRatio)
+
 ext_summary <- function(object, ..., digits = 2){
   
   #Calculate the standard error
